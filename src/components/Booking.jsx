@@ -24,6 +24,11 @@ const Booking = () => {
     const fetchAd = async () => {
       try {
         const token = localStorage.getItem("token");
+        if(!token) {
+          toast.warning("You must be logged in to view this ad.");
+          navigate("/login");
+          return;
+        }
         const response = await axios.get(`${BASE_URL}/api/client/ad/${adId}`, {
           headers: {
             Authorization: `Bearer ${token}`,
