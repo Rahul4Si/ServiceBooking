@@ -1,1 +1,1 @@
-export const BASE_URL = "servicebooking-server-production.up.railway.app";
+export const BASE_URL = "https://servicebooking-server-production.up.railway.app/";
