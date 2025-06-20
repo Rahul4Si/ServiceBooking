@@ -1,12 +1,59 @@
-# React + Vite
+# Door2Day Service Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, Java full-stack application (MySQL, SpringBoot, React, Node.js) service booking platform with a Spring Boot backend, featuring a beautiful, responsive UI built with React, Tailwind CSS, and Material UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication:** Secure login and registration for clients and companies.
+- **Role-Based Navigation:** Dynamic navbar and routes for clients and companies.
+- **Ad Posting & Management:** Companies can post, update, and delete service ads with image uploads.
+- **Service Booking:** Clients can browse, search, and book services.
+- **Booking Management:** Both clients and companies can view and manage bookings.
+- **Review System:** Clients can post reviews and ratings for services.
+- **Modern UI/UX:** Orange-themed highlights, card layouts, and mobile responsiveness throughout.
+- **API Integration:** All data is fetched and updated via a Spring Boot backend.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Tailwind CSS, Material UI
+- **Backend:** Spring Boot (Java)
+- **Database:** MySQL
+- **Other:** Axios, React Router, JWT Auth
+
+## Getting Started
+
+### Prerequisites
+- Node.js & npm
+- Java & Maven (for backend)
+- MongoDB
+
+### Installation (Frontend)
+```bash
+cd servicebookingsystemfrontend
+npm install
+npm start
+```
+
+### Installation (Backend)
+- See backend README or run with Maven/Java as a standard Spring Boot app.
+
+## Folder Structure (Frontend)
+```
+servicebookingsystemfrontend/
+  ├── src/
+  │   ├── components/   # React components (Navbar, Login, MyAds, etc.)
+  │   ├── pages/        # Page-level components
+  │   ├── api/          # API config and helpers
+  │   ├── assets/       # Images and static assets
+  │   └── data/         # Static data
+  ├── public/
+  ├── package.json
+  └── ...
+```
+
+## Screenshots
+_Add screenshots here to showcase the UI_
+
+
+---
+**Developed by Rahul**
