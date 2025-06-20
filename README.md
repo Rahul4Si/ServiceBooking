@@ -52,7 +52,7 @@ servicebookingsystemfrontend/
 ```
 
 ## Screenshots
-[_Add screenshots here to showcase the UI_](https://github.com/Rahul4Si/ServiceBooking/blob/main/Screenshot%202025-06-20%20233201.png?raw=true)
+![Logo](https://github.com/Rahul4Si/ServiceBooking/blob/main/Screenshot%202025-06-20%20233201.png?raw=true)
 
 
 ---
